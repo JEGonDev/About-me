@@ -1,0 +1,57 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(34, 50, 64);
+    height: 7rem;
+}
+
+.links-page1 {
+    justify-content: center;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.links-page1 > a {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title1 {
+    background-color: rgb(52, 115, 85);
+}
+
+.evidencies {
+    background-color: rgb(96, 191, 129);
+}
+
+footer {
+    height: 7rem;
+    width: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(34, 50, 64);
+}
+
+.copy {
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.icons {
+    align-content: center;
+}
+
+.icons > a {
+    margin: 0.5rem;
+    font-size: 2rem;
+}
