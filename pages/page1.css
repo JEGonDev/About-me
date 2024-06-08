@@ -17,7 +17,7 @@ header {
 
 .links-page1 > a {
     margin: 0.5rem;
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,10 +25,42 @@ header {
 
 .title1 {
     background-color: rgb(52, 115, 85);
+    padding: 1rem;
+}
+
+.title1 > h2{
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 .evidencies {
     background-color: rgb(96, 191, 129);
+    padding: 5rem;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.container > h2 {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(34, 50, 64);
+}
+
+.container > p {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.container > a {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
