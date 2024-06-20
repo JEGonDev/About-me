@@ -63,6 +63,7 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+<<<<<<< HEAD
 .container > h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
@@ -92,6 +93,32 @@ header {
     height: 100rem;
 }
 
+=======
+.title {
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.container-inphograf {
+    justify-content: space-around;
+    display: flex;
+}
+
+.routine > p {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: justify;
+    margin: 3rem
+}
+
+.routine {
+    border: 0.2rem solid white;
+    margin: 1rem;
+}
+>>>>>>> b05153d2711d25b42d1dc1d1a13ccb5a595a4e3a
 
 footer {
     height: 7rem;
@@ -117,3 +144,4 @@ footer {
     margin: 0.5rem;
     font-size: 2rem;
 }
+
