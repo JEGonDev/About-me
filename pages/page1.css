@@ -63,6 +63,36 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.container > h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 2rem;
+}
+
+.container-evidence5 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.container-evidence5 > h2 {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(34, 50, 64);
+    text-align: center;
+    padding: 2rem;
+}
+
+.container-evidence5 > img {
+    border-radius: 5rem;
+    height: 100rem;
+}
+
+
 footer {
     height: 7rem;
     width: auto;
